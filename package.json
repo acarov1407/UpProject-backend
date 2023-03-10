@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "MERN stack control de proyectos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acarov1407/UpTask.git"
+  },
+  "keywords": [
+    "MERN",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node"
+  ],
+  "author": "Andrés Caro Velandia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acarov1407/UpTask/issues"
+  },
+  "homepage": "https://github.com/acarov1407/UpTask#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "nodemailer": "^6.9.1",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
